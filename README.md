@@ -26,7 +26,7 @@ This script performs the following tasks:
 Downloads and reads the Shakespeare text file.
 Preprocesses the text data into training examples.
 Builds and trains the LSTM model.
-Saves the trained model to textgenerator.h5.
+Saves the trained model to *textgenerator.model/textgenerator.h5*.
 
 Generating Text <br>
 Once the model is trained, you can use the run.py script to generate text based on the trained model.
@@ -41,7 +41,17 @@ Example Output<br>
 The script prints generated text with different temperature settings:
 
 Temperature 0.2<br>
+![Screenshot 2024-06-19 113645](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/12697b0c-0922-4212-b587-488bcb9d455b)
+
 Temperature 0.4<br>
+![Screenshot 2024-06-19 113654](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/b38d6299-9962-45e0-9828-71cc5442309b)
+
 Temperature 0.6<br>
+![Screenshot 2024-06-19 113704](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/af046316-51ec-419b-ab10-25512c93412b)
+
 Temperature 0.8<br>
+![Screenshot 2024-06-19 113713](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/6986ad40-8b59-4837-8ba2-a51d8548c7aa)
+
 Temperature 1.0<br>
+![Screenshot 2024-06-19 113730](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/924e43cb-aa57-4b23-9c3e-0e9061b0a158)
+
