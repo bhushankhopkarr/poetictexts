@@ -5,6 +5,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Activation
 from tensorflow.keras.optimizers import RMSprop
 
+# Download the Shakespeare text file
+filepath = tf.keras.utils.get_file('shakespeare.txt', 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
 # Read the file
 text = open(filepath, 'rb').read().decode(encoding='utf-8').lower()
 
