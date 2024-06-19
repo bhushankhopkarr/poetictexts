@@ -41,17 +41,18 @@ Example Output<br>
 The script prints generated text with different temperature settings:
 
 Temperature 0.2<br>
-![Screenshot 2024-06-19 113645](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/12697b0c-0922-4212-b587-488bcb9d455b)
+![Screenshot 2024-06-19 130229](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/95801374-de4d-4cdd-adeb-bef9f6d07f8b)
 
 Temperature 0.4<br>
-![Screenshot 2024-06-19 113654](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/b38d6299-9962-45e0-9828-71cc5442309b)
+![Screenshot 2024-06-19 130236](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/e94a8ea3-8027-485f-9286-cd222eb96a00)
 
 Temperature 0.6<br>
-![Screenshot 2024-06-19 113704](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/af046316-51ec-419b-ab10-25512c93412b)
+![Screenshot 2024-06-19 130242](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/4f4ac067-2be9-479d-a427-faed2010e617)
 
 Temperature 0.8<br>
-![Screenshot 2024-06-19 113713](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/6986ad40-8b59-4837-8ba2-a51d8548c7aa)
+![Screenshot 2024-06-19 130256](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/4517b060-336b-4595-bdad-03558a73ee0e)
 
 Temperature 1.0<br>
-![Screenshot 2024-06-19 113730](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/924e43cb-aa57-4b23-9c3e-0e9061b0a158)
+![image](https://github.com/bhushankhopkarr/poetictexts/assets/121181515/f4a46a10-70f8-4dd9-a316-89ab6a77ba58)
+
 
