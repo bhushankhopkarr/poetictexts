@@ -24,6 +24,7 @@ index_to_char = dict((i, c) for i, c in enumerate(characters))
 SEQ_LENGTH = 40
 STEP_SIZE = 3
 
+
 sentences = []
 next_characters = []
 
@@ -42,6 +43,7 @@ for i, sentence in enumerate(sentences):
         x[i, t, char_to_index[character]] = 1
     y[i, char_to_index[next_characters[i]]] = 1
 
+
 # Build the model
 model = Sequential()
 model.add(LSTM(128, input_shape=(SEQ_LENGTH, len(characters))))
@@ -55,4 +57,4 @@ model.compile(loss='categorical_crossentropy', optimizer=RMSprop(learning_rate=0
 model.fit(x, y, batch_size=256, epochs=4)
 
 # Save the model
-model.save('textgenerator.model')
+model.save('textgenerator.h5')
