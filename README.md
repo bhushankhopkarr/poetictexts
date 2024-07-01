@@ -16,9 +16,9 @@ pip install tensorflow numpy
 Training the Model 
 To train the model, run the main.py script. This script will download the text data, preprocess it, and train the LSTM model.
 
-Run main.py to Train the Model
+Run train_model.py to Train the Model
 ```
-python main.py
+python train_model.py
 ```
 ###
 This script performs the following tasks:
@@ -31,9 +31,9 @@ Saves the trained model to *textgenerator.model/textgenerator.h5*.
 Generating Text <br>
 Once the model is trained, you can use the run.py script to generate text based on the trained model.
 
-Run run.py to Generate Text
+Run main.py to Generate Text
 ```
-python run.py
+python main.py
 ```
 This script uses the trained model to generate text. You can specify different temperatures to control the randomness of the output. The higher the temperature, the more random the output.
 
